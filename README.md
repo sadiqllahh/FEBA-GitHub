@@ -1,8 +1,5 @@
 # F-EBA: Feature-Enhanced Boosting Algorithm
 
-PyTorch implementation of the depression-detection pipeline described in
-the project report.
-
 ## Layout
 
 ```
@@ -63,6 +60,8 @@ python -m feba.main --kyoto data/kyoto.csv  # +Kyoto generalisation
 ```
 
 ## Datasets
+CLPsych
+Shenetl
 
 `Label` is binary 0/1 in the training CSVs. The Kyoto CSV may contain
 the third "candidate" class - it is collapsed to non-depressed (0) by
